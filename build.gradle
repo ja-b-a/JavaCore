@@ -36,15 +36,15 @@ repositories {
 
 allureServer {
     relativeResultDir = 'build/allure-results'
-    allureServerUrl = 'http://127.0.0.1:8081'
+    allureServerUrl = 'http://localhost:8080'
 
     requestToGeneration = { uuid ->
         """{"reportSpec": {
-                "path": [ "Amurskiy-A" ],
+                "path": [ "Kristina-E" ],
                 "executorInfo": {
-                    "buildName": "Amurskiy-A",
-                    "buildUrl": "Amurskiy-A_autotests",
-                    "reportName": "Amurskiy-A_autotests"
+                    "buildName": "Kristina-E",
+                    "buildUrl": "Kristina-E_autotests",
+                    "reportName": "Kristina-E_autotests"
                 }
             },
             "results": [ "$uuid" ],
