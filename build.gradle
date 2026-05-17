@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        junitVersion = '5.13.4'
+        junitVersion = '5.11.0'
         allureVersion = '2.25.0'
         lombokVersion = '1.18.28'
         spotbugsVersion = '4.9.8'
